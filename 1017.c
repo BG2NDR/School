@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main() {
-    int a;
+    int a,sum;
     scanf("%d", &a);
-    for (int i = 1; i <= a; i++) {
-       if (a%i == 0) {
-           
-       }
-       else {
-           
-       }
+    for(int n=1;n<a;n++){
+        if(a%n==0){
+            printf("%d\n", n);
+            sum+=n;
+        }
+    }
+    if (sum==a){
+        printf("%d its factors are:\n", a);
     }
     return 0;
 }
