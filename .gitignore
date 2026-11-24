@@ -1,0 +1,18 @@
+
+# Obsidian local settings
+/Obsidian_notes_school/.obsidian/
+/Obsidian_notes_school/.trash/
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Compiled files
+*.exe
+*.o
+*.obj
+*.out
