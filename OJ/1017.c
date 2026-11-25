@@ -1,3 +1,4 @@
+//Array&Function problem
 #include <stdio.h>
 int judgement(int b,int factors[]);
 int main() {
